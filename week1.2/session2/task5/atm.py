@@ -3,7 +3,7 @@
 
 # Initial balance set to a fixed amount
 
-balance = 1000.0
+balance = 1000
 
 # Ask user for the desired transaction type
 
@@ -16,17 +16,17 @@ option = int(input("Enter your option (1-3): "))
 
 # Conditional block for ATM operations
 
-if XXX:
+if option == 1:
     print(f"Your current balance is: £{balance:.2f}")
-elif XXX:
+elif option == 2:
     deposit_amount = float(input("Enter the amount to deposit: "))
     balance += deposit_amount
     print(f"You have deposited £{deposit_amount:.2f}")
     print(f"Your new balance is £{balance:.2f}")
-elif XXX:
+elif option == 3:
     withdraw_amount = float(input("Enter the amount to withdraw: "))
     # Nested conditional for withdrawal
-    if XXX:
+    if balance > 100:
         balance -= withdraw_amount
         print(f"You have withdrawn £{withdraw_amount:.2f}")
         print(f"Your new balance is £{balance:.2f}")
