@@ -21,6 +21,9 @@ def mystery_func(string):
             lower += 1
     return (upper, lower)
 
+# The purpose of this function is to count the number of upper-case and lower letters in a string.
+# It uses written text of type "str", and returns the number of upper- and lower-case letters in integers.
+
 
 # testing
 

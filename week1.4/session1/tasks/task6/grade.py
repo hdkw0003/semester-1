@@ -9,6 +9,7 @@ def calculate_grade(marks):
     """
     This function returns a grade based on the provided mark, according to
     the following grading scale:
+           
 
     Grading Rules:
     - Marks < 50: Grade is 'F'
@@ -32,9 +33,24 @@ def calculate_grade(marks):
         None: If `marks` is not a valid integer or is outside the allowed
               range (greater than 100 or negative)
     """
-    pass
-
-    return grade
+    
+    if marks >= 0 and marks < 50:
+       grade = "F"
+       return grade
+    elif marks >= 50 and marks < 60:
+       grade = "D"
+       return grade
+    elif marks >= 60 and marks < 70:
+       grade = "C"
+       return grade
+    elif marks >= 70 and marks < 80:
+       grade = "B"
+       return grade
+    elif marks >= 80 and marks <= 100:
+       grade = "A"
+       return grade
+    elif marks < 0 and marks > 100:
+       grade = None
 
 
 # Check if the following tests produce the correct output

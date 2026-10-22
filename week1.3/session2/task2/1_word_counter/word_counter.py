@@ -5,6 +5,12 @@
 
 # open and read the file
 
+with open("glasses.txt", "r") as file:
+   word = file.read()
+   word = word.strip().split()
+   print(word)
+   wordcount = len(word)
+   print(wordcount)
 # calculate the number of words
 # hint: you could use .split() to break up by spaces
 # hint: watch out for empty lines that might give you empty strings

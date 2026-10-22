@@ -9,6 +9,10 @@
 #   - the widget which has been sold the most
 # and print these out in a nice, human-readable format
 
+with open("sales.csv", "r") as file:
+    text = file.read()
+    print(text)
+    [x:y:z:a:b for x, y, z, a, b in text]
 
 # additional: you can calculate other sales statistics such as:
 # - total sales for each region

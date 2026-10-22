@@ -24,3 +24,12 @@ def sum_list(a):
     for number in a:
         sum = sum + number
     return sum
+
+
+def fibonacci( n ) :
+ if n == 0: # base case
+  return 0
+ elif n == 1: # base case
+  return 1
+ return fibonacci(n-1) + fibonacci(n-2) # 2 recursive calls
+result = print(fibonacci(8))

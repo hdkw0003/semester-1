@@ -15,3 +15,5 @@ print(newval)
 
 # write the list comprehension equivalent to the `for` loop
 
+newval2 = {2 * i for i in values if i % 2 == 0 or i for i in values}
+print (newval2)

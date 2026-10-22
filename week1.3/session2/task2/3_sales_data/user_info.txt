@@ -1,0 +1,3 @@
+name: d
+age: d
+favourite colour: d

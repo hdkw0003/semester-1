@@ -10,6 +10,7 @@ def odd_even(lstIntegers):
     This function takes a list of integers and returns the number of
     odd numbers and the number of even numbers in a list.
 
+
     Args:
         lstIntegers (list): A list of integers.
 
@@ -18,6 +19,17 @@ def odd_even(lstIntegers):
     """
 
     # Complete your code here
+    evens = []
+    odds = []
+    for x in lstIntegers:
+        if x % 2 == 0:
+           evens.append(x)
+        elif x % 2 == 1:
+            odds.append(x)
+    evencount = len(evens)
+    oddcount = len(odds)
+    odd_even = (oddcount, evencount)
+    return odd_even
 
 
 # Check if correct output is produced

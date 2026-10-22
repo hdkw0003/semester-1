@@ -5,11 +5,11 @@
 # value to be "-". The function returns the formatted date as a string
 # in the format day-month-year with the default separator.
 
-
-def format_data(day, month, year, separator):
+def format_data(day, month, year, separator=":"):
     # complete your code here
-
+    formatted_date = print((day), (month), (year), sep=separator)
     return formatted_date
 
+formatted_date = format_data(12, 4, 2026)
 
 # Write code to test the function with separators such as "/", ":", "."

@@ -5,6 +5,7 @@
 
 
 def isBond(intList):
+    
     """
     This function accepts a list of integers and returns True if the
     sequence 0, 0, 7 appears in the list, in that order. Return False
@@ -15,8 +16,8 @@ def isBond(intList):
     # pass is a Python keyword used as a placeholder for future code,
     # meaning you need to delete pass to write your code.
     # Nothing happens when pass is executed.
-
-    pass     # delete pass to write your code
+    
+    # delete pass to write your code
 
 # Check if the following lines of code produce the correct output
 print(isBond([1, 2, 4, 0, 0, 7, 5]))   # True

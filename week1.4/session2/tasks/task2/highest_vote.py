@@ -8,7 +8,7 @@ def most_frequent_string(votes):
     (i.e., no ties for the highest count)
 
     Args:
-        votes (list): A list of strings representng votes,
+        votes (list): A list of strings representing votes,
         e.g. ['apples', 'bananas', 'grapes', 'tomatoes']
 
     Returns:
@@ -16,6 +16,9 @@ def most_frequent_string(votes):
         and int is the count of its occurences
         - None, None: if votes is empty.
     """
+    for item in votes:
+        votecount = votes.count
+        
 
     # Your task is to complete the body of the function based on the details in the docstring.
     # Hint 1: You can complete this task with for loops or comprehensions 

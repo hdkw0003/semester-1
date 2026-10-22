@@ -5,6 +5,8 @@ raw_emails = ["UserA@gmail.com", "admin@site.com", "usera@gmail.com", "UserB@yah
 
 # set comprehension to extract a clean, unique set of lowercase email addresses
 
+lowercase_emails = {x.lower() for x in raw_emails}
+print(lowercase_emails)
 
 # print the clean set of email addressed
 

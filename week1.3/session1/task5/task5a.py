@@ -7,4 +7,15 @@ for ch in course:
 
 
 # create a list data structure of the characters from the course string
+def charreturn():
+	for ch in course:
+	 characters = [(ch) for ch in course]
+	 return characters
+	
+characters = charreturn()
+print (characters)
+
 # sort the list into alphabetical order
+
+characters.sort()
+print (characters)
