@@ -19,8 +19,15 @@ def digits_sum(number):
     """
     # complete your code here
     # base case
-    if item == 0:
+    
+    for char in number:
+         print(sum)
+         digits_sum(sum + char)
+         if char == None:
+            break
         
+
+
     # recursive case
 
 
