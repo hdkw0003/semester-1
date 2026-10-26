@@ -8,3 +8,11 @@
 #  - Creates a Circle object, using the Point object and a value for radius
 #  - Displays the area of the circle
 #  - Displays the perimeter of the circle
+
+import geometry
+
+Point = 2.4, 3.6
+Circle.centre = ((Point.x), (Point.y))
+Circle.radius = 2.5
+print (Circle.area())
+print (Circle.perimeter())
