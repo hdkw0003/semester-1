@@ -11,8 +11,9 @@
 
 import geometry
 
-Point = 2.4, 3.6
+Point.x = int(input("Please input an X coordinate."))
+Point.y = int(input("Please input a Y coordinate."))
 Circle.centre = ((Point.x), (Point.y))
 Circle.radius = 2.5
-print (Circle.area())
-print (Circle.perimeter())
+print round((Circle.area()), 4)
+print round((Circle.perimeter()), 4)
