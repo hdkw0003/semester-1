@@ -23,6 +23,7 @@ class Money:
         """
         Returns a string representation of this Money.
         """
+        return f"£{self.pounds}.{self.pence d2)}"
         # Add code here to return an appropriate string representation
         # Use the currency symbol for British Pounds Sterling
         # Represent pence with a leading zero if needed (e.g. '05')
@@ -31,6 +32,13 @@ class Money:
         """
         Adds this Money to another Money, returning the total.
         """
+        if not IsInstance(other, (Money)):
+            raise TypeError("Please use a Money object.") 
+        sum = (self + other)
+        return sum
+
+
+    def __str__(sum):
         # Add code here to check that parameter 'other' is a Money object,
         # add self to other, then return the sum as a new Money object
         # (see README for hints and tips)
