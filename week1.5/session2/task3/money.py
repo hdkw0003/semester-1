@@ -35,6 +35,8 @@ class Money:
         if not IsInstance(other, (Money)):
             raise TypeError("Please use a Money object.") 
         sum = (self + other)
+        if pence < 99:
+           pounds = pounds + ((pence - 99) // 99)
         return sum
 
 
