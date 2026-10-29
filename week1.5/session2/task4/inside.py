@@ -2,3 +2,9 @@
 
 # Add a program here that demonstrates use of the __contains__()
 # method that you implemented in the Circle class
+
+import geometry
+
+tisk = Point(3.4, 2.1)
+cirf = Circle(4)
+print cirf __contains__(tisk)
