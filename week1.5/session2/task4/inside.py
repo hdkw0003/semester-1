@@ -7,4 +7,4 @@ import geometry
 
 tisk = Point(3.4, 2.1)
 cirf = Circle(4)
-print cirf __contains__(tisk)
+print __contains__(cirf, tisk)
