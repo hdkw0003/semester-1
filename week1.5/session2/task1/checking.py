@@ -14,12 +14,15 @@ class Point:
         """
         Creates a Point, given x & y coordinates.
         """
+
+        def self.set_x():
             if not isinstance (x, (int, float)):
                 raise TypeError("The X coordinate should be a number);
+            self.x = x
+         def self.set_y()
             if not isinstance (y, (int, float)):
                 raise TypeError("The Y coordinate should be a number);
-        self.x = x
-        self.y = y
+            self.y = y
 
     def distance(self):
         """
