@@ -72,7 +72,7 @@ class Circle:
         """
         return f"radius={self.radius}, centre={self.centre}"
    
-   def __contains__(self)
+   def __contains__(self, other):
         if Point in Circle:
             print ("Point found in Circle!")
 
