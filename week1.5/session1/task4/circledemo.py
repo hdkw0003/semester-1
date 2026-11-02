@@ -11,9 +11,9 @@
 
 import geometry
 
-Point.x = int(input("Please input an X coordinate."))
-Point.y = int(input("Please input a Y coordinate."))
-Circle.centre = ((Point.x), (Point.y))
-Circle.radius = 2.5
-print round((Circle.area()), 4)
-print round((Circle.perimeter()), 4)
+Doim.x = int(input("Please input an X coordinate."))
+Doim.y = int(input("Please input a Y coordinate."))
+Circ.centre = ((Doim.x), (Doim.y))
+Circ.radius = 2.5
+print (round((Circle.area()), 4))
+print (round((Circle.perimeter()), 4))

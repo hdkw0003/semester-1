@@ -1,5 +1,7 @@
 # Week 1.5, Session 1: Task 3
 
+import math
+
 class Point:
     """
     A Point in 2D space.
@@ -7,19 +9,21 @@ class Point:
 
     # Add constructor here
    
-    def __init__(self, x_coordinate, y_coordinate)
-    self.x = x_coordinate
-    self.y = y_coordinate
+    def __init__(self, x_coordinate, y_coordinate):
+      self.x = x_coordinate
+      self.y = y_coordinate
 
     # Creates a point given X and Y coordinates.
 
     # Add distance() method here
-    self.distance() = math.hypot(x_coordinate, y_coordinate)
+      def distance(self):
+         math.hypot(x_coordinate, y_coordinate)
     # Uses Pythagoras's Theorem to 
 
     # Add distance_to() method here
     # (This will need a parameter representing another point)
-    self.distance_to() = ((self.distance()) 
+      def distance_to(other, self):
+        (other.distance() - self.distance())
 
 
 
