@@ -40,11 +40,17 @@ class Circle:
   '''
   A Circle in 2D space.
   '''
-  def __init__ (self, centre, radius):
-    self.centre = (Point.x), (Point.y)
+  def __init__ (self, radius, centre=Point(0.0, 0.0)):
+    self.centre = centre
     self.radius = radius
-    self.area() == (radius * radius * 3.14159)
-    self.perimeter() == (radius * 2 * 3.14150)
+    
+  def area(self):
+    ''' A function to calculate the area using the formula pi * r^2 where r represents a given radius.'''
+    return (self.radius * self.radius * 3.14159)
+  
+  def perimeter(self): 
+    ''' A function to calculate the perimeter of a circle using the formula pi * 2r, where r represents a given radius. '''
+    return (self.radius * 2 * 3.14159)
     
                           
 # Don't add any testing code to this file!
