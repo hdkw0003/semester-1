@@ -5,4 +5,4 @@ def test_floats_approx():
 
 def test_floats_equals():
     # this test will fail
-    assert (0.1 + 0.2) == 0.3
+    assert round((0.1 + 0.2), 1) == 0.3

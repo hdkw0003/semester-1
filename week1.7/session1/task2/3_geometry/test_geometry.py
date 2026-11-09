@@ -30,17 +30,19 @@ def test_init_circle():
     c = Circle(5, p)
     
     assert c.radius == 5
-    assert c.centre == Point(1.0, 1.0)
+    assert c.centre == p
 
 def test_area_circle():
     '''Intended to test the area function of the Circle class.'''
     p = Point(1.0, 1.0)
     c = Circle(5, p)
-    assert c.area == math.pi * 6 * 6
+    ans = (math.pi * 5 * 5)
+    assert c.area() == ans
 
 def test_perimeter_circle():
     '''Intended to test the perimeter function of the Circle class.'''
     p = Point(1.0, 1.0)
     c = Circle(5, p)
-    assert c.perimeter == math.pi * 6 * 2
+    ans = (math.pi * 5 * 2)
+    assert c.perimeter() == ans
 
